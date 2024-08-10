@@ -1,0 +1,222 @@
+
+
+
+* {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+body{
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+
+.navbar{
+    background-color: hsl(219, 40%, 15%);
+    
+    
+
+}
+
+#navi{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+
+}
+
+.navbar-nav{
+    margin-left: 350px;
+    margin-right: auto;
+    gap: 20px;
+    
+    
+}
+
+
+
+/* --Footer-- */
+.container-fluid{
+        height: 250px;
+        background-color: hsl(219, 40%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+          /* radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%); */
+    /* border-radius: 15px; */
+    
+}
+
+#footer{
+    background-color: hsl(219, 40%, 15%);
+}
+
+#list-group{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.list-item1,.list-item2,.list-item3{
+    text-decoration: none;
+    color: rgb(192, 211, 228);
+}
+
+.list-item1:hover{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+}
+.list-item2:hover{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.list-item3:hover{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.para{
+    text-decoration: none;
+    color: rgb(212, 193, 193);
+    text-align: justify;
+}
+.para:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.add{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.add:hover{
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+/* .map{
+    text-overflow: none;
+}
+.map:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}  */
+
+/* .carousel-inner{
+     border-radius: 400px; 
+}
+
+        /* Cards */
+
+        .card{
+            background-color:  hsl(219, 40%, 15%);
+            margin-top:40px;
+            
+
+        
+        }
+
+        .card:hover{
+            background-color: hsl(219, 98%, 51%);
+            transform: scale(0.9);
+            transition: 0.5s;
+        
+        }
+
+        .card-deck{
+            width: 90%;
+            margin: auto;
+
+        }
+
+        #card-heading{
+          font-size: 50px;
+         
+          text-align: center;
+          font-weight: bold;
+          background-color:  hsl(219, 40%, 15%);
+          color: rgb(255, 255, 255);
+          border-radius: 30px 30px 0px 0px;
+          
+        }
+
+        #card-heading:hover{
+          background-color: black;
+          transform: scale(0.9);
+          transition: 0.5s;
+          color: rgb(255, 255, 255);
+        }
+
+        #card-img{
+            width: 100%;
+            height: 400px;
+        }
+
+        #title1,#title2,#title3,#title4,#title5{
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(220, 228, 233);
+            font-weight: bold;
+        }
+
+        #text1,#text2,#text3,#text4,#text5{
+            color: rgb(255, 255, 255);
+        }
+        #text1:hover{
+            /* color: rgb(0, 0, 0); */
+            cursor: pointer;
+        }
+        #text2:hover{
+            /* color: rgb(0, 0, 0); */
+            cursor: pointer;
+        }
+        #text3:hover{
+            /* color: rgb(0, 0, 0); */
+            cursor: pointer;
+        }
+        #text4:hover{
+            /* color: rgb(0, 0, 0); */
+            cursor: pointer;
+        }
+        #text5:Hover{
+            /* color: rgb(0, 0, 0); */
+            cursor: pointer;
+        }
+
+        
+
+       
+       
+
+        

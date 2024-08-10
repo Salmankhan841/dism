@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery</title>
+    <link rel="Icon" href="images/logo new.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" >
+    <a class="navbar-brand " href="#" id="navi"><img src="images/logo new.png" alt="" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarScroll" >
+      <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll " style="max-height: 100px;">
+        <li class="nav-item active">
+          <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+           Stationery Items
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Bags.html">Bags</a></li>
+            <li><a class="dropdown-item" href="Calculator.html">Calculators</a></li>
+            <li><a class="dropdown-item" href="Color.html">Colors</a></li>
+            <li><a class="dropdown-item" href="Markers.html">Markers</a></li>
+            <li><a class="dropdown-item" href="Notebook.html">NoteBooks</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Toffee Choco</a></li> -->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SignUp.html">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SignIn.html">Sign In</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled">Link</a>
+        </li> -->
+      </ul>
+      <p>
+        <h1 style="float:right;padding-right: 53px; color: white; font-size: 20px;"><i class="bi bi-person"></i><span id="b"></span></h1>
+      </p>
+      <script>
+        document.getElementById('b').innerHTML=localStorage.getItem("textvalue");
+      </script>
+    </div>
+    </nav>
+
+
+
+        <!-- Gallery Cards -->
+        <div class="card-deck " >
+            <div class="card ">
+              <img src="images/calculators/calculator1.jfif" class="card-img-top" alt="..." id="card-img">
+              <div class="card-body text-center">
+                <h5 class="card-title" id="title1">Calculator</h5>
+                <p class="card-text" id="text1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div>
+                  <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+              </div>
+              </div>
+            </div>
+            <div class="card ">
+              <img src="images/calculators/calculator3.jfif" class="card-img-top" alt="..." id="card-img">
+              <div class="card-body text-center">
+                <h5 class="card-title" id="title2">Calculator</h5>
+                <p class="card-text" id="text2">This card has supporting text below as a natural lead-in to additional content.</p>
+                <div>
+                  <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <img src="images/calculators/calculator2.jfif" class="card-img-top" alt="..." id="card-img">
+              <div class="card-body text-center">
+                <h5 class="card-title" id="title3">Calculator</h5>
+                <p class="card-text" id="text3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <div>
+                  <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/calculators/calculator4.jfif" class="card-img-top" alt="..." id="card-img">
+            <div class="card-body text-center">
+              <h5 class="card-title" id="title4">Calculator</h5>
+              <p class="card-text" id="text4">This card has supporting text below as a natural lead-in to additional content.</p>
+              <div>
+                <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/calculators/calculator5.jfif" class="card-img-top" alt="..." id="card-img">
+            <div class="card-body text-center">
+              <h5 class="card-title" id="title5">Calculator</h5>
+              <p class="card-text" id="text5">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <div>
+                <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card ">
+            <img src="images/calculators/calculator6.jfif" class="card-img-top" alt="..." id="card-img">
+            <div class="card-body text-center">
+              <h5 class="card-title" id="title3">Calculator</h5>
+              <p class="card-text" id="text3">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <div>
+                <a href="THANK YOU FOR PURCHASING STUFF FROM OUR SITE.docx"><button class="btn btn-success " id="btn-cards" >Add to Cart</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Footer -->
+      <div class="container-fluid mt-5" id="footer">
+        <div class="row ">
+          <div class="col-6 mt-5">
+            <ul style="list-style: none;" id="list-group">
+              <a href="Index.html"><li class="list-item1"><i class="bi bi-house mr-1"></i>Home</li></a>
+              <a href="aboutus.html"><li class="list-item2"><i class="bi bi-info-circle"></i>About Us</li></a>
+              <a href=""><li class="list-item3"><i class="bi bi-chevron-compact-down"></i></i>Stationery Items</li></a>
+              <a href="SignUp.html"><li class="list-item3"><i class="bi bi-box-arrow-in-right"></i>Sign Up</li></a>
+              <a href="SignIn.html"><li class="list-item3"><i class="bi bi-box-arrow-right"></i>Sign In</li></a>
+          </ul>
+          </div>
+          <div class="col-6 mt-3">
+            <h1 class="add">Address</h1>
+            <p class="para">
+              30-A, Progressive Center, Suite # 202-203, Main Shahrah-e-Faisal Rd, near Lal Kothi (house), Karachi, 75400
+            </p>
+          </div>
+          <!-- <div class="col-sm-4 mt-5 map">
+             <h1>Map</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57920.27437252089!2d67.00230032167971!3d24.863263900000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2sus!4v1714201091221!5m2!1sen!2sus"
+            width="320" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div> -->
+        </div>
+      </div>
+</body>
+</html>
